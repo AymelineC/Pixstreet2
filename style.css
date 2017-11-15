@@ -21,7 +21,7 @@ body{
 
 .logo {
     width: 200px;
-    height: 45px;
+    height: 50px;
 }
 
 .menuContainer {
@@ -80,8 +80,8 @@ body{
   right: 0;
   width: 40px;
   height: 100%;
-  border: 1px solid #5CA4A9;
-  background: #5CA4A9;
+  border: 1px solid #D4D3D5;
+  background: #D4D3D5;
   text-align: center;
   color: #fff;
   border-radius: 5px;
@@ -118,14 +118,19 @@ body{
 
 .slideLinkItem:not(:last-child):after{
   content: '•';
-  font-size: 48px;
+  font-size: 40px;
   padding: 0 8px 0 10px;
   color: #3f3f3f;
 }
 
+
+/* buttons */
+
+
+
 .slideLink{
   font-family: "Fjalla one", sans-serif;
-  font-size: 48px;
+  font-size: 40px;
   color: #3f3f3f;
   transition: color .5s ease;
 }
@@ -154,7 +159,13 @@ body{
   font-size: 100px;
 }
 
-
+.Nav {
+  width: 20px;
+  height: 22px;
+  left: 20px;
+  bottom: 80px;
+  position: absolute;
+}
 .author-info a {
   color: white;
 }
@@ -173,7 +184,9 @@ body{
 
 .latestArticles{
   font-size: 48px;
+  margin-top: 25px;
   font-family: "Fjalla one", sans-serif;
+  color: #3f3f3f;
 }
 
 .articlesAllContainer{
@@ -190,7 +203,6 @@ body{
   flex-wrap: wrap;
   justify-content: space-between;
 }
-
 .article{
   width: 100%;
   margin-bottom: 25px;
@@ -200,6 +212,12 @@ body{
   width: 100%;
   margin-bottom: -14px;
   height: 630px;
+  transition: 0.3s;
+}
+.imgArticleBig:hover {
+  opacity:0.6;
+  background-color: red;
+  cursor: pointer;
 }
 
 .imgArticleLittle{
@@ -239,7 +257,7 @@ body{
   text-align: left;
   font-size: 18px;
   color: #3f3f3f;
-  margin: 0 0 -10px 20px;
+  margin: 0 0 -10px 50px;
   transition: color .5s ease;
 }
 
@@ -250,6 +268,7 @@ body{
 .socialArticleContainer{
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 10px;
 }
 
 .socialArticleItem{
